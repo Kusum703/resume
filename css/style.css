@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	 font-family: 'Inter', sans-serif;
+	 font-size: 15px;
+	 min-height: 100vh ;  
+    background: radial-gradient(circle, #F5cb8a 0%, #f1b9d6 33%, #ecb0a7 100%, #b095b9 100%);
+     line-height: 1.5;
+     display: flex;
+	align-items: center;
+}
+.image img{
+    height: 210px;
+    width: 200px;
+    padding: 5px;
+}
+.maincontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #69005a;
+  margin: 0 auto;
+  width: 1020px;
+  text-align: center;
+}
+.maincontainer .container-one div{
+   padding-bottom: 20px;
+}
+.maincontainer .container-two{
+    width: 500px;
+} 
+.maincontainer .container-one .header h1{ 
+font-weight: 600;   
+}
+.icons .icon{
+    padding: 20px 15px 0px 0px;
+  
+}
+.icons a:not(:first-child) {
+    margin-left: 2rem;
+}
+.icon a:first-child{
+    border-radius: 50%; 
+    border: 2px solid #69005a;
+    padding: 18px; 
+}
+.icons a:nth-child(2) {
+    margin-left: 2rem;
+    border-radius: 50%; 
+    border: 2px solid #69005a;
+    padding: 18px;
+  }
+.icons a:nth-child(3) {
+    margin-left: 2rem;
+    border-radius: 50%; 
+    border: 2px solid #69005a;
+    padding: 18px;
+  }
+.container-two{
+    text-align: left;  
+    padding: 10px;
+}
+.container-two p{
+    font-size: 13px;
+}
+.container-two div{
+    padding-bottom: 20px;
+}
+.container-two .wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: large;
+}
+.skills h2{
+margin-bottom: 10px;
+}
+ul{
+    padding-left: 25px;
+}
+.skills li{
+    padding:0px 0px 10px 10px;
+}
+
+
